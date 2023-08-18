@@ -1,0 +1,13 @@
+{
+    "name": "vender/mvc",
+    "autoload": {
+        "psr-4": {
+            "Mvc\\": "app/"
+        }
+    },
+    "require": {
+        "dcblogdev/pdo-wrapper": "^2.0",
+      "ext-pdo": "*",
+        "rakit/validation": "^1.4"
+    }
+}
